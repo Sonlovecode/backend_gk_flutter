@@ -1,0 +1,21 @@
+{
+  "name": "react-admin-panel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch database.json --middlewares ./content-range.js",
+    "start": "react-scripts start"
+  },
+  "keywords": [
+    "react",
+    "admin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "json-server": "^0.17.0"
+  },
+  "description": ""
+}
